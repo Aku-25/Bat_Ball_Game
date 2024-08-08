@@ -11,19 +11,19 @@
   let computerChoice = generateComputerChoice();
   let resultMsg = getResult('Bat',computerChoice);
   showResult('Bat',computerChoice,resultMsg);
-  "><img src="images/bat.png" alt="Bat Images" class="choice-images"></button>
+  "><img src="bat.png" alt="Bat Images" class="choice-images"></button>
 
   <button class="choice-button" onclick="
    computerChoice = generateComputerChoice();// call the function not write a code again and again 
    resultMsg=getResult('Ball',computerChoice);
    showResult('Ball',computerChoice,resultMsg);
-  "><img src="images/ball.png" alt="Ball Images" class="choice-images"></button>
+  "><img src="ball.png" alt="Ball Images" class="choice-images"></button>
    
   <button class="choice-button" onclick="
    computerChoice = generateComputerChoice();//call the funtion 
    resultMsg=getResult('Stump',computerChoice);
    showResult('Stump',computerChoice,resultMsg);
-  "><img src="images/stump.png" alt="Stump Images" class="choice-images"></button>
+  "><img src="stump.png" alt="Stump Images" class="choice-images"></button>
 
   
 
@@ -34,7 +34,7 @@
 
   <button class="reset" onclick="localStorage.clear()
   resetScore();
-  "><img src="images/ref.png" alt="Reset Images" class="reset-button"></button>
+  "><img src="ref.png" alt="Reset Images" class="reset-button"></button>
   <script>
     let scoreStr = localStorage.getItem('Score');//retrieve  from localStorage
     let score;
